@@ -1,0 +1,47 @@
+{
+    "extensionDescription": {
+        "message": "Adds a entry to the context menu that allows you to calculate the checksum of files.",
+        "description": "Description of the extension"
+    },
+
+    "contextMenu": {
+        "message": "Calculate Checksum",
+        "description": "The text shown in the context menu"
+    },
+
+    "popupTitle": {
+        "message": "Calculate Checksum",
+        "description": "The title of the popup"
+    },
+
+    "headerText": {
+        "message": "Calculate Checksum for $URL$",
+        "description": "The header text of the popup",
+        "placeholders": {
+            "url" : {
+                "content" : "$1",
+                "example" : "https://developer.mozilla.org"
+            }
+        }
+    },
+
+    "placeholderText": {
+        "message": "Click on the Button to calculate the Checksum",
+        "description": "The Text that is shown in the Input field when nothing is there"
+    },
+
+    "calculateButton": {
+        "message": "Calculate",
+        "description": "The Text on the Calculate Button"
+    },
+
+    "waitText": {
+        "message": "Calculating...",
+        "description": "The Text that is shown while calculating"
+    },
+
+    "errorText": {
+        "message": "An error has occurred",
+        "description": "This text is shown in the input field when something failed"
+    }
+}

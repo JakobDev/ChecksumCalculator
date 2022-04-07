@@ -1,0 +1,47 @@
+{
+    "extensionDescription": {
+        "message": "Fügt einen EIntrag zum Kontextmenü hinzu, durch den die Prüfsumme von Dateien berechnet werden kann.",
+        "description": "Description of the extension"
+    },
+
+    "contextMenu": {
+        "message": "Prüfsumme berechnen",
+        "description": "The text shown in the context menu"
+    },
+
+    "popupTitle": {
+        "message": "Prüfsumme berechnen",
+        "description": "The title of the popup"
+    },
+
+    "headerText": {
+        "message": "Prüfsumme für $URL$ berechnen",
+        "description": "The header text of the popup",
+        "placeholders": {
+            "url" : {
+                "content" : "$1",
+                "example" : "https://developer.mozilla.org"
+            }
+        }
+    },
+
+    "placeholderText": {
+        "message": "Klicke zum Berechnen der Prüfsumme auf den Button",
+        "description": "The Text that is shown in the Input field when nothing is there"
+    },
+
+    "calculateButton": {
+        "message": "Berechnen",
+        "description": "The Text on the Calculate Button"
+    },
+
+    "waitText": {
+        "message": "Berechne...",
+        "description": "The Text that is shown while calculating"
+    },
+
+    "errorText": {
+        "message": "Ein Fehler ist aufgetreten",
+        "description": "This text is shown in the input field when something failed"
+    }
+}
