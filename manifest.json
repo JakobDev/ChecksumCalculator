@@ -1,6 +1,6 @@
 {
 
-    "manifest_version": 2,
+    "manifest_version": 3,
     "name": "ChecksumCalculator",
     "description": "__MSG_extensionDescription__",
     "default_locale": "en",
@@ -11,11 +11,14 @@
     },
 
     "background": {
-      "scripts": ["background.js"]
+        "service_worker": "background.js"
     },
 
+    "host_permissions": [
+        "*://*/*"
+    ],
+
     "permissions": [
-      "contextMenus",
-      "*://*/*"
+        "contextMenus"
     ]
   }
