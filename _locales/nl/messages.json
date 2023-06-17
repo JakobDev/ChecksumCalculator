@@ -1,0 +1,47 @@
+{
+    "extensionDescription": {
+        "message": "Voegt een rechtermuisknopmenu-item toe waarmee je de controlesom van bestanden kunt berekenen.",
+        "description": "Description of the extension"
+    },
+
+    "contextMenu": {
+        "message": "Controlesom berekenen",
+        "description": "The text shown in the context menu"
+    },
+
+    "popupTitle": {
+        "message": "Controlesom berekenen",
+        "description": "The title of the popup"
+    },
+
+    "headerText": {
+        "message": "Bereken de controlesom van $URL$",
+        "description": "The header text of the popup",
+        "placeholders": {
+            "url" : {
+                "content" : "$1",
+                "example" : "https://developer.mozilla.org"
+            }
+        }
+    },
+
+    "placeholderText": {
+        "message": "Klik op de knop om de controlesom te berekenen",
+        "description": "The Text that is shown in the Input field when nothing is there"
+    },
+
+    "calculateButton": {
+        "message": "Berekenen",
+        "description": "The Text on the Calculate Button"
+    },
+
+    "waitText": {
+        "message": "Bezig met berekenen…",
+        "description": "The Text that is shown while calculating"
+    },
+
+    "errorText": {
+        "message": "Er is een fout opgetreden",
+        "description": "This text is shown in the input field when something failed"
+    }
+}
