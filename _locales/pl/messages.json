@@ -1,1 +1,40 @@
-{}
+{
+    "popupTitle": {
+        "message": "Obliczanie sumy kontrolnej",
+        "description": "The title of the popup"
+    },
+    "headerText": {
+        "message": "Oblicz sumę kontrolną dla $URL$",
+        "description": "The header text of the popup",
+        "placeholders": {
+            "url": {
+                "content": "$1",
+                "example": "https://developer.mozilla.org"
+            }
+        }
+    },
+    "placeholderText": {
+        "message": "Kliknij przycisk, aby obliczyć sumę kontrolną",
+        "description": "The Text that is shown in the Input field when nothing is there"
+    },
+    "waitText": {
+        "message": "Obliczanie...",
+        "description": "The Text that is shown while calculating"
+    },
+    "errorText": {
+        "message": "Wystąpił błąd",
+        "description": "This text is shown in the input field when something failed"
+    },
+    "calculateButton": {
+        "message": "Oblicz",
+        "description": "The Text on the Calculate Button"
+    },
+    "contextMenu": {
+        "message": "Obliczanie sumy kontrolnej",
+        "description": "The text shown in the context menu"
+    },
+    "extensionDescription": {
+        "message": "Dodaje do menu kontekstowego pozycję umożliwiającą obliczanie sumy kontrolnej plików.",
+        "description": "Description of the extension"
+    }
+}
