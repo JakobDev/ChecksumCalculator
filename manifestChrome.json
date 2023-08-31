@@ -4,14 +4,23 @@
     "name": "ChecksumCalculator",
     "description": "__MSG_extensionDescription__",
     "default_locale": "en",
-    "version": "1.0",
+    "version": "2.0",
 
     "icons": {
         "48": "icon.png"
     },
 
+    "action": {
+        "default_popup": "popup/popup.html"
+    },
+
     "background": {
         "service_worker": "background.js"
+    },
+
+    "options_ui": {
+        "page": "options/options.html",
+        "browser_style": true
     },
 
     "host_permissions": [
@@ -19,6 +28,12 @@
     ],
 
     "permissions": [
-        "contextMenus"
+        "contextMenus",
+        "storage"
+    ],
+
+    "optional_permissions": [
+        "offscreen",
+        "privacy"
     ]
-  }
+}

@@ -1,0 +1,16 @@
+body {
+    width: fit-content;
+}
+
+#main-div {
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+#info-text {
+    min-width: 150px;
+    text-align: center;
+}

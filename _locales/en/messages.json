@@ -35,6 +35,11 @@
         "description": "The Text on the Calculate Button"
     },
 
+    "copyButton": {
+        "message": "Copy",
+        "description": "The Text on the Copy Button"
+    },
+
     "waitText": {
         "message": "Calculating...",
         "description": "The Text that is shown while calculating"
@@ -43,5 +48,66 @@
     "errorText": {
         "message": "An error has occurred",
         "description": "This text is shown in the input field when something failed"
+    },
+
+    "copyToastNoChecksum": {
+        "message": "You need to calculate a Checksum before copying",
+        "description": "This Toast shwon when there is is Checksum to copy"
+    },
+
+    "copyToastSuccess": {
+        "message": "Checksum copied",
+        "description": "This Toast shwon when the Checksum is copied"
+    },
+
+    "versionText": {
+        "message": "ChecksumCalculator Version $Version$",
+        "description": "The text that is shwon in the footer",
+        "placeholders": {
+            "version" : {
+                "content" : "$1",
+                "example" : "1.0"
+            }
+        }
+    },
+
+    "aboutLinkViewSource": {
+        "message": "View Source",
+        "description": "The text on the 'View Source' Link in the Footer"
+    },
+
+    "aboutLinkReportBug": {
+        "message": "Report Bug",
+        "description": "The text on the 'Report Bug' Link in the Footer"
+    },
+
+    "aboutLinkTranslate": {
+        "message": "Translate",
+        "description": "The text on the 'Translate' Link in the Footer"
+    },
+
+    "popupText": {
+        "message": "Calculate the Checksum of a local file",
+        "description": "The Text on the Popup"
+    },
+
+    "popupBrowseButton": {
+        "message": "Browse",
+        "description": "The Text on the Browse Button in the Popup"
+    },
+
+    "optionsCalculatePageOpenText": {
+        "message": "Where should the Calculate Page be opened?",
+        "description": "The Text in the Options Page"
+    },
+
+    "optionsCalculatePageOpenWindow": {
+        "message": "In a Window",
+        "description": "The Label of the 'In a Window' Radio Button on the Options Page"
+    },
+
+    "optionsCalculatePageOpenTab": {
+        "message": "In a Tab",
+        "description": "The Label of the 'In a Tab' Radio Button on the Options Page"
     }
 }
