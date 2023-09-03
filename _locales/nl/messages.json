@@ -3,45 +3,92 @@
         "message": "Voegt een rechtermuisknopmenu-item toe waarmee je de controlesom van bestanden kunt berekenen.",
         "description": "Description of the extension"
     },
-
     "contextMenu": {
         "message": "Controlesom berekenen",
         "description": "The text shown in the context menu"
     },
-
     "popupTitle": {
         "message": "Controlesom berekenen",
         "description": "The title of the popup"
     },
-
     "headerText": {
         "message": "Bereken de controlesom van $URL$",
         "description": "The header text of the popup",
         "placeholders": {
-            "url" : {
-                "content" : "$1",
-                "example" : "https://developer.mozilla.org"
+            "url": {
+                "content": "$1",
+                "example": "https://developer.mozilla.org"
             }
         }
     },
-
     "placeholderText": {
         "message": "Klik op de knop om de controlesom te berekenen",
         "description": "The Text that is shown in the Input field when nothing is there"
     },
-
     "calculateButton": {
         "message": "Berekenen",
         "description": "The Text on the Calculate Button"
     },
-
     "waitText": {
         "message": "Bezig met berekenen…",
         "description": "The Text that is shown while calculating"
     },
-
     "errorText": {
         "message": "Er is een fout opgetreden",
         "description": "This text is shown in the input field when something failed"
+    },
+    "copyButton": {
+        "message": "Kopiëren",
+        "description": "The Text on the Copy Button"
+    },
+    "copyToastNoChecksum": {
+        "message": "Bereken een controlesom alvorens te kopiëren",
+        "description": "This Toast shwon when there is is Checksum to copy"
+    },
+    "copyToastSuccess": {
+        "message": "De controlesom is gekopieerd",
+        "description": "This Toast shwon when the Checksum is copied"
+    },
+    "versionText": {
+        "message": "ChecksumCalculator-versie $Version$",
+        "description": "The text that is shwon in the footer",
+        "placeholders": {
+            "version": {
+                "content": "$1",
+                "example": "1.0"
+            }
+        }
+    },
+    "aboutLinkViewSource": {
+        "message": "Broncode bekĳken",
+        "description": "The text on the 'View Source' Link in the Footer"
+    },
+    "aboutLinkReportBug": {
+        "message": "Bug melden",
+        "description": "The text on the 'Report Bug' Link in the Footer"
+    },
+    "aboutLinkTranslate": {
+        "message": "Vertalen",
+        "description": "The text on the 'Translate' Link in the Footer"
+    },
+    "popupText": {
+        "message": "Bereken de controlesom van een lokaal bestand",
+        "description": "The Text on the Popup"
+    },
+    "popupBrowseButton": {
+        "message": "Bladeren",
+        "description": "The Text on the Browse Button in the Popup"
+    },
+    "optionsCalculatePageOpenText": {
+        "message": "Waar moet de berekenpagina geopend worden?",
+        "description": "The Text in the Options Page"
+    },
+    "optionsCalculatePageOpenWindow": {
+        "message": "In een venster",
+        "description": "The Label of the 'In a Window' Radio Button on the Options Page"
+    },
+    "optionsCalculatePageOpenTab": {
+        "message": "Op een tabblad",
+        "description": "The Label of the 'In a Tab' Radio Button on the Options Page"
     }
 }
