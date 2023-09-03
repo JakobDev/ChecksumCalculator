@@ -3,10 +3,10 @@ function openCalculatePage(url) {
         calculatePageOpenType: "window"
     }).then(function(options) {
         if (options.calculatePageOpenType === "window") {
-            chrome.windows.create({ url: chrome.runtime.getURL("calculate/calculate.html?url=" + url), type:  "popup"});
+            chrome.windows.create({ url: chrome.runtime.getURL("Calculate/calculate.html?url=" + url), type:  "popup"});
         }
         else {
-            chrome.tabs.create({ url: chrome.runtime.getURL("calculate/calculate.html?url=" + url)});
+            chrome.tabs.create({ url: chrome.runtime.getURL("Calculate/calculate.html?url=" + url)});
         }
     });
 }
