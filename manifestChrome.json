@@ -11,7 +11,7 @@
     },
 
     "action": {
-        "default_popup": "popup/popup.html"
+        "default_popup": "Popup/popup.html"
     },
 
     "background": {
@@ -19,7 +19,7 @@
     },
 
     "options_ui": {
-        "page": "options/options.html",
+        "page": "Options/options.html",
         "browser_style": true
     },
 
