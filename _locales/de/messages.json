@@ -1,111 +1,92 @@
 {
     "extensionDescription": {
-        "message": "Fügt einen EIntrag zum Kontextmenü hinzu, durch den die Prüfsumme von Dateien berechnet werden kann.",
+        "message": "Fügt einen Eintrag zum Kontextmenü hinzu, durch den die Prüfsumme von Dateien berechnet werden kann.",
         "description": "Description of the extension"
     },
-
     "contextMenu": {
         "message": "Prüfsumme berechnen",
         "description": "The text shown in the context menu"
     },
-
     "popupTitle": {
         "message": "Prüfsumme berechnen",
         "description": "The title of the popup"
     },
-
     "headerText": {
         "message": "Prüfsumme für $URL$ berechnen",
         "description": "The header text of the popup",
         "placeholders": {
-            "url" : {
-                "content" : "$1",
-                "example" : "https://developer.mozilla.org"
+            "url": {
+                "content": "$1",
+                "example": "https://developer.mozilla.org"
             }
         }
     },
-
     "placeholderText": {
         "message": "Klicke zum Berechnen der Prüfsumme auf den Button",
         "description": "The Text that is shown in the Input field when nothing is there"
     },
-
     "calculateButton": {
         "message": "Berechnen",
         "description": "The Text on the Calculate Button"
     },
-
     "copyButton": {
         "message": "Kopieren",
         "description": "The Text on the Copy Button"
     },
-
     "waitText": {
         "message": "Berechne...",
         "description": "The Text that is shown while calculating"
     },
-
     "errorText": {
         "message": "Ein Fehler ist aufgetreten",
         "description": "This text is shown in the input field when something failed"
     },
-
     "copyToastNoChecksum": {
         "message": "Die Prüfsumme muss vor dem Kopieren erst berechnet werden",
         "description": "This Toast shwon when there is is Checksum to copy"
     },
-
     "copyToastSuccess": {
         "message": "Prüfsumme kopiert",
         "description": "This Toast shwon when the Checksum is copied"
     },
-
     "versionText": {
         "message": "ChecksumCalculator Version $Version$",
         "description": "The text that is shwon in the footer",
         "placeholders": {
-            "version" : {
-                "content" : "$1",
-                "example" : "1.0"
+            "version": {
+                "content": "$1",
+                "example": "1.0"
             }
         }
     },
-
     "aboutLinkViewSource": {
         "message": "Quelltext ansehen",
         "description": "The text on the 'View Source' Link in the Footer"
     },
-
     "aboutLinkReportBug": {
         "message": "Fehler melden",
         "description": "The text on the 'Report Bug' Link in the Footer"
     },
-
     "aboutLinkTranslate": {
         "message": "Übersetzen",
         "description": "The text on the 'Translate' Link in the Footer"
     },
-
     "popupText": {
         "message": "Prüfsumme einer lokalen Datei berechnen",
         "description": "The Text on the Popup"
     },
-
     "popupBrowseButton": {
         "message": "Durchsuchen",
         "description": "The Text on the Browse Button in the Popup"
     },
-
     "optionsCalculatePageOpenText": {
         "message": "Wo soll die Seite zum Berechnen geöffnet werden?",
         "description": "The Text in the Options Page"
     },
-
     "optionsCalculatePageOpenWindow": {
         "message": "In einem Fenster",
         "description": "The Label of the 'In a Window' Radio Button on the Options Page"
     },
-
     "optionsCalculatePageOpenTab": {
         "message": "In einem Tab",
         "description": "The Label of the 'In a Tab' Radio Button on the Options Page"
