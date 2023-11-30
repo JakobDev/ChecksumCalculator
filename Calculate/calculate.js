@@ -140,5 +140,3 @@ window.onload = function() {
     setInterval(function() {
         chrome.runtime.sendMessage({ offscreenKeepAliveURL: params.get("url") });
     }, 10000);}
-
-    //chrome.permissions.request({"origins": [params.get("url")] });
