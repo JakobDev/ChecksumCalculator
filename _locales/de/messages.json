@@ -33,6 +33,14 @@
         "message": "Kopieren",
         "description": "The Text on the Copy Button"
     },
+    "waitPermissionText": {
+        "message": "Warte auf Berechtigung",
+        "description": "The Text that is shown while waiting for the User to grant the Permission"
+    },
+    "noPermissionText": {
+        "message": "ChecksumCalculator hat keine Berechtigung um auf diese URL zuzugreifen",
+        "description": "The Text that is shown when ChecksumCalculator don't have permission to access a URL"
+    },
     "waitText": {
         "message": "Berechne...",
         "description": "The Text that is shown while calculating"

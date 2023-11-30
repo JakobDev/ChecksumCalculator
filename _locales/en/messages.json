@@ -40,6 +40,16 @@
         "description": "The Text on the Copy Button"
     },
 
+    "waitPermissionText": {
+        "message": "Waiting for authorization",
+        "description": "The Text that is shown while waiting for the User to grant the Permission"
+    },
+
+    "noPermissionText": {
+        "message": "ChecksumCalculator does not have permission to access this URL",
+        "description": "The Text that is shown when ChecksumCalculator don't have permission to access a URL"
+    },
+
     "waitText": {
         "message": "Calculating...",
         "description": "The Text that is shown while calculating"
@@ -52,17 +62,17 @@
 
     "copyToastNoChecksum": {
         "message": "You need to calculate a Checksum before copying",
-        "description": "This Toast shwon when there is is Checksum to copy"
+        "description": "This Toast shown when there is is Checksum to copy"
     },
 
     "copyToastSuccess": {
         "message": "Checksum copied",
-        "description": "This Toast shwon when the Checksum is copied"
+        "description": "This Toast shown when the Checksum is copied"
     },
 
     "versionText": {
         "message": "ChecksumCalculator Version $Version$",
-        "description": "The text that is shwon in the footer",
+        "description": "The text that is shown in the footer",
         "placeholders": {
             "version" : {
                 "content" : "$1",

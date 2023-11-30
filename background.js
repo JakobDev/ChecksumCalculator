@@ -1,4 +1,4 @@
-function openCalculatePage(url) {
+async function openCalculatePage(url) {
     chrome.storage.sync.get({
         calculatePageOpenType: "window"
     }).then(function(options) {

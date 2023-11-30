@@ -22,7 +22,7 @@ function calculateHashFromBlob(method, blob, inputid) {
     };
 }
 
-function calculateHashFromUrl(method, inputid) {
+async function calculateHashFromUrl(method, inputid) {
     var inputElement = document.getElementById(inputid);
 
     if (inputElement.getAttribute("status") == "calculating") {
@@ -30,6 +30,18 @@ function calculateHashFromUrl(method, inputid) {
     }
 
     inputElement.setAttribute("status", "calculating");
+
+    var url = new URL(params.get("url"));
+    if (url.protocol === "http:" || url.protocol === "https:") {
+        inputElement.value = chrome.i18n.getMessage("waitPermissionText");
+        var hasPermission = await chrome.permissions.request({"origins": [params.get("url")] });
+        if (!hasPermission) {
+            inputElement.value = chrome.i18n.getMessage("noPermissionText");
+            inputElement.setAttribute("status", "error");
+            return;
+        }
+    }
+
     inputElement.value = chrome.i18n.getMessage("waitText");
 
     var oReq = new XMLHttpRequest();
@@ -128,3 +140,5 @@ window.onload = function() {
     setInterval(function() {
         chrome.runtime.sendMessage({ offscreenKeepAliveURL: params.get("url") });
     }, 10000);}
+
+    //chrome.permissions.request({"origins": [params.get("url")] });
