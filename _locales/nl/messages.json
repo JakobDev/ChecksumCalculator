@@ -90,5 +90,13 @@
     "optionsCalculatePageOpenTab": {
         "message": "Op een tabblad",
         "description": "The Label of the 'In a Tab' Radio Button on the Options Page"
+    },
+    "waitPermissionText": {
+        "message": "Bezig met wachten op goedkeuring…",
+        "description": "The Text that is shown while waiting for the User to grant the Permission"
+    },
+    "noPermissionText": {
+        "message": "ChecksumCalculator is niet bevoegd om deze url te openen",
+        "description": "The Text that is shown when ChecksumCalculator don't have permission to access a URL"
     }
 }
