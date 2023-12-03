@@ -1,0 +1,21 @@
+steps:
+    build_chrome:
+        image: python:latest
+        commands:
+            - pip install crx3
+            - echo "$CHROME_PRIVATE_KEY" > PrivateKey.pem
+            - cat PrivateKey.pem
+            - python ./build.py crx
+        secrets: [CHROME_PRIVATE_KEY]
+
+    upload_chrome:
+        image: python:latest
+        commands:
+            - pip install requests
+            - wget https://codeberg.org/JakobDev/ci-scripts/raw/branch/main/release/codeberg-release-upload.py
+            - python ./codeberg-release-upload.py ChecksumCalculatorChrome.crx
+        secrets: [CODEBERG_API_TOKEN]
+
+when:
+    event: tag
+    branch: main

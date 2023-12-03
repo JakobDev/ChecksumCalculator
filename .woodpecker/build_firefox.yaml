@@ -1,0 +1,17 @@
+steps:
+    build_firefox:
+        image: python:latest
+        commands:
+            - python ./build.py xpi
+
+    upload_firefox:
+        image: python:latest
+        commands:
+            - pip install requests
+            - wget https://codeberg.org/JakobDev/ci-scripts/raw/branch/main/release/codeberg-release-upload.py
+            - python ./codeberg-release-upload.py ChecksumCalculatorFirefox.xpi
+        secrets: [CODEBERG_API_TOKEN]
+
+when:
+    event: tag
+    branch: main
