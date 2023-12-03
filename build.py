@@ -80,6 +80,7 @@ def main() -> None:
             create_crx(project_dir)
         case _:
             print("Unknown target " + sys.argv[1], file=sys.stderr)
+            sys.exit(1)
 
 
 if __name__ == "__main__":
