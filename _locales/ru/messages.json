@@ -1,1 +1,102 @@
-{}
+{
+    "optionsCalculatePageOpenText": {
+        "message": "Как должна открываться страница вычисления?",
+        "description": "The Text in the Options Page"
+    },
+    "aboutLinkReportBug": {
+        "message": "Сообщить об ошибке",
+        "description": "The text on the 'Report Bug' Link in the Footer"
+    },
+    "optionsCalculatePageOpenTab": {
+        "message": "Во вкладке",
+        "description": "The Label of the 'In a Tab' Radio Button on the Options Page"
+    },
+    "copyToastNoChecksum": {
+        "message": "Для копирования контрольной суммы её сперва необходимо вычислить",
+        "description": "This Toast shown when there is is Checksum to copy"
+    },
+    "popupTitle": {
+        "message": "Получить контрольную сумму",
+        "description": "The title of the popup"
+    },
+    "optionsCalculatePageOpenWindow": {
+        "message": "В окне",
+        "description": "The Label of the 'In a Window' Radio Button on the Options Page"
+    },
+    "placeholderText": {
+        "message": "Для получения контрольной суммы нажмите на кнопку",
+        "description": "The Text that is shown in the Input field when nothing is there"
+    },
+    "waitText": {
+        "message": "Вычисление...",
+        "description": "The Text that is shown while calculating"
+    },
+    "extensionDescription": {
+        "message": "Добавляет в контекстное меню опцию для получения контрольных сумм файлов.",
+        "description": "Description of the extension"
+    },
+    "popupText": {
+        "message": "Вычислить контрольную сумму локального файла",
+        "description": "The Text on the Popup"
+    },
+    "copyButton": {
+        "message": "Копировать",
+        "description": "The Text on the Copy Button"
+    },
+    "copyToastSuccess": {
+        "message": "Сумма скопирована",
+        "description": "This Toast shown when the Checksum is copied"
+    },
+    "contextMenu": {
+        "message": "Получить контрольную сумму",
+        "description": "The text shown in the context menu"
+    },
+    "errorText": {
+        "message": "Произошла ошибка",
+        "description": "This text is shown in the input field when something failed"
+    },
+    "waitPermissionText": {
+        "message": "Ожидание авторизации",
+        "description": "The Text that is shown while waiting for the User to grant the Permission"
+    },
+    "noPermissionText": {
+        "message": "У ChecksumCalculator нет доступа к содержимому этой ссылки",
+        "description": "The Text that is shown when ChecksumCalculator don't have permission to access a URL"
+    },
+    "versionText": {
+        "message": "ChecksumCalculator версии $Version$",
+        "description": "The text that is shown in the footer",
+        "placeholders": {
+            "version": {
+                "content": "$1",
+                "example": "1.0"
+            }
+        }
+    },
+    "popupBrowseButton": {
+        "message": "Обзор",
+        "description": "The Text on the Browse Button in the Popup"
+    },
+    "aboutLinkTranslate": {
+        "message": "Перевод расширения",
+        "description": "The text on the 'Translate' Link in the Footer"
+    },
+    "aboutLinkViewSource": {
+        "message": "Исходный код",
+        "description": "The text on the 'View Source' Link in the Footer"
+    },
+    "calculateButton": {
+        "message": "Вычислить",
+        "description": "The Text on the Calculate Button"
+    },
+    "headerText": {
+        "message": "Получить контрольную сумму для $URL$",
+        "description": "The header text of the popup",
+        "placeholders": {
+            "url": {
+                "content": "$1",
+                "example": "https://developer.mozilla.org"
+            }
+        }
+    }
+}
