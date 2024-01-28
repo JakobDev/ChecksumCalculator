@@ -1,1 +1,102 @@
-{}
+{
+    "optionsCalculatePageOpenText": {
+        "message": "Hesaplama sayfası nerede açılmalı?",
+        "description": "The Text in the Options Page"
+    },
+    "aboutLinkReportBug": {
+        "message": "Hata Bildir",
+        "description": "The text on the 'Report Bug' Link in the Footer"
+    },
+    "optionsCalculatePageOpenTab": {
+        "message": "Sekme İçinde",
+        "description": "The Label of the 'In a Tab' Radio Button on the Options Page"
+    },
+    "copyToastNoChecksum": {
+        "message": "Kopyalamadan önce bir sağlama toplamı hesaplamanız gerekir",
+        "description": "This Toast shown when there is is Checksum to copy"
+    },
+    "popupTitle": {
+        "message": "Sağlama Toplamını Hesapla",
+        "description": "The title of the popup"
+    },
+    "optionsCalculatePageOpenWindow": {
+        "message": "Pencere İçinde",
+        "description": "The Label of the 'In a Window' Radio Button on the Options Page"
+    },
+    "placeholderText": {
+        "message": "Sağlama toplamını hesaplamak için düğmeye tıklayın",
+        "description": "The Text that is shown in the Input field when nothing is there"
+    },
+    "waitText": {
+        "message": "Hesaplanıyor...",
+        "description": "The Text that is shown while calculating"
+    },
+    "extensionDescription": {
+        "message": "Bağlam menüsüne dosyaların sağlama toplamını hesaplamanıza olanak tanıyan bir girdi ekler.",
+        "description": "Description of the extension"
+    },
+    "popupText": {
+        "message": "Yerel bir dosyanın sağlama toplamını hesapla",
+        "description": "The Text on the Popup"
+    },
+    "copyButton": {
+        "message": "Kopyala",
+        "description": "The Text on the Copy Button"
+    },
+    "copyToastSuccess": {
+        "message": "Sağlama toplamı kopyalandı",
+        "description": "This Toast shown when the Checksum is copied"
+    },
+    "contextMenu": {
+        "message": "Sağlama Toplamını Hesapla",
+        "description": "The text shown in the context menu"
+    },
+    "errorText": {
+        "message": "Bir hata oluştu",
+        "description": "This text is shown in the input field when something failed"
+    },
+    "waitPermissionText": {
+        "message": "Yetkilendirme için bekleniyor",
+        "description": "The Text that is shown while waiting for the User to grant the Permission"
+    },
+    "noPermissionText": {
+        "message": "SağlamaToplamıHesaplayıcı'nın bu URL'ye erişim izni yok",
+        "description": "The Text that is shown when ChecksumCalculator don't have permission to access a URL"
+    },
+    "versionText": {
+        "message": "SağlamaToplamıHesaplayıcı Sürümü $Version$",
+        "description": "The text that is shown in the footer",
+        "placeholders": {
+            "version": {
+                "content": "$1",
+                "example": "1.0"
+            }
+        }
+    },
+    "popupBrowseButton": {
+        "message": "Göz At",
+        "description": "The Text on the Browse Button in the Popup"
+    },
+    "aboutLinkTranslate": {
+        "message": "Çevir",
+        "description": "The text on the 'Translate' Link in the Footer"
+    },
+    "aboutLinkViewSource": {
+        "message": "Kaynağı Görüntüle",
+        "description": "The text on the 'View Source' Link in the Footer"
+    },
+    "calculateButton": {
+        "message": "Hesapla",
+        "description": "The Text on the Calculate Button"
+    },
+    "headerText": {
+        "message": "$URL$ için Sağlama Toplamını Hesapla",
+        "description": "The header text of the popup",
+        "placeholders": {
+            "url": {
+                "content": "$1",
+                "example": "https://developer.mozilla.org"
+            }
+        }
+    }
+}
